@@ -1,0 +1,31 @@
+
+
+
+/* Colors */
+
+:root {
+  --bg-color-primary: #101010;
+  --bg-color-secondary: #e8e8e8;
+
+
+
+  --fc-primary: #979797;
+  --fc-hover: #fafafa;
+
+  --fs-topbar: 2.25rem;
+  --fs-section-title: 4rem;
+  --fs-section-subtitle: 2rem;
+  --fs-txt: 1.5rem;
+  --fs-txt-small: 1.25rem;
+  --fs-txt-smaller: 1rem;
+  --fs-txt-smallest: 0.75rem;
+  --fs-btn: 1.5rem;
+  --fs-btn-small: 1.25rem;
+
+
+  --fw-small: 300;
+  --fw-medium: 400;
+  --fw-bold: 700;
+
+
+}

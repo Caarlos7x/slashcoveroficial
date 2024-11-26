@@ -1,0 +1,17 @@
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-img {
+  background-image: url('../public/images/living-dream-smkc.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -111px;
+
+  height: 667px;
+  width: 714px;
+}
