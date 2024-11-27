@@ -9,31 +9,13 @@ function Contact() {
       </div>
 
       <IonRow>
-        <IonCol>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quam vel quasi ut, dolorem quibusdam esse doloribus? Cum
-            ipsum voluptate repellendus asperiores expedita voluptatem
-            ipsa quibusdam, provident odit, a consequatur? Temporibus!
-            <br /><br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quam vel quasi ut, dolorem quibusdam esse doloribus? Cum
-            ipsum voluptate repellendus asperiores expedita voluptatem
-            ipsa quibusdam, provident odit, a consequatur? Temporibus!
-          </p>
+        <IonCol class='contact-col1'>
+          <div className="contact-img"></div>
         </IonCol>
-        <IonCol>
+        <IonCol class='contact-col2'>
+          <h2>Para shows entre em contato</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quam vel quasi ut, dolorem quibusdam esse doloribus? Cum
-            ipsum voluptate repellendus asperiores expedita voluptatem
-            ipsa quibusdam, provident odit, a consequatur? Temporibus!
-
-            <br /><br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quam vel quasi ut, dolorem quibusdam esse doloribus? Cum
-            ipsum voluptate repellendus asperiores expedita voluptatem
-            ipsa quibusdam, provident odit, a consequatur? Temporibus!
+            <a href="mailto:contato@slashcoveroficial.com.br">CONTATO@SLASHCOVEROFICIAL.COM.BR</a>
           </p>
         </IonCol>
       </IonRow>
