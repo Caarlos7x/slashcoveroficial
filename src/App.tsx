@@ -1,5 +1,5 @@
 import "./App.css";
-import '../src/styles/global.css';
+import './styles/global.css';
 import Band from "./components/band/Band";
 import Footer from "./components/footer/Footer";
 import Topbar from "./components/topToolBar/TopToolBar";
