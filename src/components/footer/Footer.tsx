@@ -9,7 +9,7 @@ function Footer() {
           <IonCol size="12" size-sm="6" size-md="6" size-lg="4">
             <div className="footer-column">
               <a href="home">
-                <h3>HOME</h3>
+                {/* <h3>HOME</h3> */}
                 <div className="img-footer"></div>
               </a>
             </div>

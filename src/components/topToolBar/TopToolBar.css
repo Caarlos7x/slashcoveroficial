@@ -31,3 +31,17 @@
 .menu li.selected {
   font-weight: var(--fw-bold);
 }
+
+@media screen and (max-width: 768px) {
+  .topbar-container {
+    margin: 4rem;
+  }
+
+  .menu {
+    gap: 10px;
+  }
+
+  .menu li {
+    font-size: 1.3rem;
+  }
+}

@@ -10,20 +10,24 @@
   padding: 20px;
   color: white;
   background-color: #000000 !important;
+  flex-wrap: wrap;
 }
 
 .footer-column {
   display: flex;
+  flex-direction: column;
   margin: 0 30px;
-  
+  flex: 1;
+  min-width: 200px;
+}
 
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  h3 {
-    margin-left: 20px;
-  }
+.footer-column a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-column h3 {
+  margin-left: 20px;
 }
 
 .footer-column h3 {
@@ -53,12 +57,12 @@
 
 .footer-column p {
   margin: 5px 0;
+}
 
-  a {
-    text-decoration: none;
-    color: white;
-    font-weight: 200;
-  }
+.footer-column p a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
 }
 
 .img-footer {
@@ -67,5 +71,40 @@
   background-size: cover;
   height: 100px;
   width: 100px;
-  margin: 20px auto 20px auto;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-column {
+    margin: 10px 0;
+
+    h3 {
+      margin: 10px auto;
+    }
+
+    a {
+      margin: 10px auto;
+      text-align: center;
+    }
+  }
+
+  .footer-column h3 {
+    font-size: 1rem;
+  }
+
+  .footer-column img {
+    width: 80px;
+    height: 80px;
+  }
 }
